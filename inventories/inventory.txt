@@ -1,0 +1,9 @@
+[nifi]
+kafka-1 ansible_host=10.116.104.93
+kafka-2 ansible_host=10.116.104.128
+kafka-3 ansible_host=10.116.104.132
+
+[all:vars]
+ansible_user=ubuntu
+hortonworks=no
+nifi_zookeeper_servers=["kafka-1.1","kafka-2.2","kafka-3.3"]

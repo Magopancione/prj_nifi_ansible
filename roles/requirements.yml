@@ -1,0 +1,4 @@
+- src: https://github.com/Magopancione/ansible_nifi_role.git
+  name: nifi
+  scm: git
+  path: ./ansible_dependencies

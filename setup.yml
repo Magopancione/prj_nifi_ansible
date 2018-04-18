@@ -1,0 +1,6 @@
+- name: Install NiFi
+  hosts: nifi
+  become: yes
+  roles:
+    - role: nifi
+      nifi_version: 1.4.0
